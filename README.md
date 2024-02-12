@@ -125,3 +125,36 @@ To https://github.com/salarsalarsalar/MLOPs-class-activity-1.git
 
 ____________________________________________________________________________
 
+git add README.md
+git commit -m "Update README file"
+
+///Output///
+[master c373ba9] Update README file
+ Committer: root <root@DESKTOP-37IUT92.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 127 insertions(+)
+
+ ____________________________________________________________________________
+
+git push origin master
+
+///Output///
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.49 KiB | 37.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/salarsalarsalar/MLOPs-class-activity-1.git
+   00c2e06..c373ba9  master -> master
